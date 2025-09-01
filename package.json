@@ -1,0 +1,50 @@
+{
+  "name": "sshman-cli",
+  "version": "1.0.0",
+  "description": "SSH connection manager CLI tool - Manage multiple SSH connections easily",
+  "main": "src/index.js",
+  "bin": {
+    "sshman": "bin/sshman.js"
+  },
+  "scripts": {
+    "start": "node bin/sshman.js",
+    "sshman": "node bin/sshman.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ssh",
+    "cli",
+    "server",
+    "connection",
+    "manager",
+    "terminal",
+    "remote",
+    "admin",
+    "devops"
+  ],
+  "author": "Sinan Demir <sinandmr@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinandmr/sshman-cli.git"
+  },
+  "homepage": "https://github.com/sinandmr/sshman-cli#readme",
+  "bugs": {
+    "url": "https://github.com/sinandmr/sshman-cli/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^14.0.0",
+    "fs-extra": "^11.3.1",
+    "inquirer": "^8.2.6"
+  }
+}
