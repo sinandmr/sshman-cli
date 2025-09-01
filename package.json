@@ -1,6 +1,6 @@
 {
   "name": "sshman-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SSH connection manager CLI tool - Manage multiple SSH connections easily",
   "main": "src/index.js",
   "bin": {
@@ -22,7 +22,7 @@
     "admin",
     "devops"
   ],
-  "author": "Sinan Demir <sinandmr@example.com>",
+  "author": "Sinan Demir <sinanndmrr@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
